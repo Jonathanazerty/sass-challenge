@@ -1,0 +1,23 @@
+%message {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  color: #2748b3;
+  background-color: rgb(0, 0, 0);
+}
+
+.success {
+  @extend %message;
+}
+
+.error {
+    @extend %message;
+}
+
+.warning {
+    @extend %message;
+}
+
+.message {
+    @extend %message;
+}
